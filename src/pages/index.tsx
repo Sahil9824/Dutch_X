@@ -1,16 +1,12 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+import React from "react";
+import Navbar from "../components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
+const Homepage = () => {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        This is Dutch Project
-      </div>
-    </main>
+    <div className="bg-c_bg_black w-screen h-screen  px-6">
+      <Navbar />
+    </div>
   );
-}
+};
+
+export default Homepage;
