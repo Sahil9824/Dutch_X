@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border_bottom {
+  @apply border-b-[rgba(255,255,255,0.1)] border-b border-solid;
+}
+
+.search_border {
+  @apply border border-solid border-[rgba(255,255,255,0.1)] rounded-[8px];
+}

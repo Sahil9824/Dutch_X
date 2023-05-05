@@ -1,0 +1,7 @@
+export const DASHBOARD_ITEM_COLORS = {
+  GREEN_BG: "#2EC62E",
+  BROWN: "#F5D72E",
+  BLUE: "#2EC4DA",
+  PURPLE: "#A74CC9",
+  PINK: "#FF4FB6",
+};

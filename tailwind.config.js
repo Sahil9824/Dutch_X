@@ -23,6 +23,7 @@ module.exports = {
 
       colors: {
         c_bg_black: "#121212",
+        dot_Orange: "#FF5A19",
       },
     },
   },
