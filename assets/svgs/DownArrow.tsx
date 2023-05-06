@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const DownArrow = (props) => (
+const DownArrow = (props: object) => (
   <svg
     width={20}
     height={20}

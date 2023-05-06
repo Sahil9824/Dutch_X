@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const TradeIn = (props) => (
+const TradeIn = (props: object) => (
   <svg
     width={66}
     height={75}

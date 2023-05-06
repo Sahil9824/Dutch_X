@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Tick = (props) => (
+const Tick = (props: object) => (
   <svg
     width={20}
     height={21}

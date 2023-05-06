@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Notification = (props) => (
+const Notification = (props: object) => (
   <svg
     width={24}
     height={24}

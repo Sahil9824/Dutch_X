@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Search = (props) => (
+const Search = (props: object) => (
   <svg
     width={21}
     height={20}

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const SmallGas = (props) => (
+const SmallGas = (props: object) => (
   <svg
     width={16}
     height={17}

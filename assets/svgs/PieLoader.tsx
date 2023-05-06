@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const PieLoader = (props) => (
+const PieLoader = (props: object) => (
   <svg
     width={20}
     height={21}

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Enter = (props) => (
+const Enter = (props: object) => (
   <svg
     width={21}
     height={22}

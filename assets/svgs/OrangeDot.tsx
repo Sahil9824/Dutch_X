@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const OrangeDot = (props) => (
+const OrangeDot = (props: object) => (
   <svg
     width={6}
     height={5}

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const TriangleError = (props) => (
+const TriangleError = (props: object) => (
   <svg
     width={20}
     height={21}

@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const FindHolder = (props) => (
+const FindHolder = (props: object) => (
   <svg
     width={67}
     height={67}

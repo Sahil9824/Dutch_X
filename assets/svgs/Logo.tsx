@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Logo = (props) => (
+const Logo = (props: object) => (
   <svg
     width={130}
     height={32}

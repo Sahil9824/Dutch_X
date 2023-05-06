@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const NftManagement = (props) => (
+const NftManagement = (props: object) => (
   <svg
     width={60}
     height={74}

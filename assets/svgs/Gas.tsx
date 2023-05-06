@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Gas = (props) => (
+const Gas = (props: object) => (
   <svg
     width={24}
     height={24}

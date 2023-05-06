@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const CryptoSymbol = (props) => (
+const CryptoSymbol = (props: object) => (
   <svg
     width={16}
     height={17}
