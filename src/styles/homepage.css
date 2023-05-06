@@ -9,3 +9,27 @@
 .search_border {
   @apply border border-solid border-[rgba(255,255,255,0.1)] rounded-[8px];
 }
+
+.dashDetailBg {
+  @apply backdrop-blur-2xl;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    rgba(0, 0, 0, 0.5);
+}
+
+.border_right_grey {
+  @apply border-r-[rgba(255,255,255,0.2)] border-r border-solid;
+}
+
+.gradInItem {
+  background: linear-gradient(
+      270deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    #ff4800;
+  background-blend-mode: overlay, normal;
+}
