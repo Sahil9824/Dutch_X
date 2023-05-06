@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Clock = (props) => (
+const Clock = (props: object) => (
   <svg
     width={16}
     height={17}

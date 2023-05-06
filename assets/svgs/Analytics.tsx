@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const Analytics = (props) => (
+const Analytics = (props: object) => (
   <svg
     width={70}
     height={65}

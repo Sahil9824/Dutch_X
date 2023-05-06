@@ -1,6 +1,6 @@
 import * as React from "react";
 
-const AirDrop = (props) => (
+const AirDrop = (props: object) => (
   <svg
     width={70}
     height={71}
