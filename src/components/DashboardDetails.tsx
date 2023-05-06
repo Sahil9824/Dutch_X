@@ -44,12 +44,12 @@ const DashboardDetails: React.FC<Props> = ({
               Create
             </p>
           </div>
-          <p className="flex items-center ">
+          <div className="flex items-center ">
             <Clock />
             <p className="font-Satoshi_400 text-[14px] text-white/70 ml-[8px]">
               {date} {time}
             </p>
-          </p>
+          </div>
         </div>
         <p className="font-Satoshi_400 text-[16px] text-white mt-[36px]">
           {isAddFunds ? "Using Card" : "Beep"}
@@ -65,25 +65,25 @@ const DashboardDetails: React.FC<Props> = ({
         <div className="flex items-center mt-[18px]">
           {!isAddFunds ? (
             <div className="relative search_border px-[16px] h-[29px] w-[289px] flex items-center ">
-              <p className="flex items-center font-Satoshi_400 text-[14px] text-white border_right_grey pr-[16px]">
+              <div className="flex items-center font-Satoshi_400 text-[14px] text-white border_right_grey pr-[16px]">
                 0/7
                 <p className="ml-[8px] ">Minting</p>
-              </p>
-              <p className="pl-[16px] flex items-center font-Satoshi_400 text-[14px] text-white border_right_grey">
+              </div>
+              <div className="pl-[16px] flex items-center font-Satoshi_400 text-[14px] text-white border_right_grey">
                 0<p className="ml-[8px] text-white/70 pr-[16px]">Success</p>
-              </p>
-              <p className="flex items-center font-Satoshi_400 text-[14px] pl-[16px] text-white ">
+              </div>
+              <div className="flex items-center font-Satoshi_400 text-[14px] pl-[16px] text-white ">
                 7<p className="ml-[8px] text-white/70 pr-[16px]">Failed</p>
-              </p>
+              </div>
               <div className="absolute right-[-9px] top-[-9px]">
                 <Error />
               </div>
             </div>
           ) : (
-            <p className="flex px-[16px] items-center search_border font-Satoshi_400 text-[14px] text-white border_right_grey py-[6px]">
+            <div className="flex px-[16px] items-center search_border font-Satoshi_400 text-[14px] text-white border_right_grey py-[6px]">
               <CryptoSymbol />
               <p className="ml-[8px] ">1.5 ETH</p>
-            </p>
+            </div>
           )}
           {!isAddFunds && (
             <p className="flex items-center ml-[14px]">
@@ -116,7 +116,7 @@ const DashboardDetails: React.FC<Props> = ({
 
 const BeepText = () => (
   <p className="font-Satoshi_700 text-[30px] text-white mr-[4px]">
-    Beep 057{" "}
+    Beep 057
     <span className="font-Satoshi_700 text-[14px] text-white">(1)</span>
     <span className="font-Satoshi_700 text-[14px] text-white/50 ml-[8px]">
       /

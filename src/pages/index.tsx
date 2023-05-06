@@ -9,6 +9,7 @@ import Analytics from "../../assets/svgs/Analytics";
 import { map } from "lodash";
 import { DASHBOARD_ITEM_COLORS } from "../general.constants";
 import DashboardDetails from "@/components/DashboardDetails";
+import OverviewDetails from "@/components/OverviewDetails";
 
 const DashboardItemsList = [
   {
@@ -35,6 +36,39 @@ const DashboardItemsList = [
     icon: <Analytics />,
     title: "Analytics",
     bgCol: DASHBOARD_ITEM_COLORS.PINK,
+  },
+];
+
+const arr1 = [
+  {
+    title: "NFT fetched",
+    number: 187,
+  },
+  {
+    title: "Collection",
+    number: 5,
+  },
+  {
+    title: "Minted",
+    number: 39,
+  },
+];
+
+const arr2 = [
+  {
+    title: "Green Apple",
+  },
+  {
+    title: "Christmas Tree",
+  },
+];
+
+const arr3 = [
+  {
+    title: "Setting > Account",
+  },
+  {
+    title: "Sales reports",
   },
 ];
 
@@ -102,8 +136,12 @@ const Homepage = () => {
             btn1="View Transaction"
           />
         </div>
-        <div className="font-Satoshi_400 text-[24px] text-white/50">
+        <div className="font-Satoshi_400 text-[24px] text-white/50 w-1/4">
           <p>Overview</p>
+
+          <OverviewDetails title="NFTs" isNumber data={arr1} />
+          <OverviewDetails title="Saved Searches" data={arr2} />
+          <OverviewDetails title="Recent Activity" data={arr3} />
         </div>
       </div>
     </div>
