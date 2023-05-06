@@ -63,7 +63,7 @@ const Navbar = () => {
           $0.14 USD
         </p>
       </div>
-      <div className="ml-[16px]">
+      <div className="ml-[16px] cursor-pointer">
         <Notification />
       </div>
 

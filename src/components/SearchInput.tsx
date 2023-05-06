@@ -8,7 +8,7 @@ const SearchInput = () => {
       <div className="flex w-full items-center">
         <Search />
         <input
-          className="flex-1 px-[10px] ml-[8px] bg-transparent"
+          className="flex-1 px-[10px] ml-[8px] bg-transparent font-Satoshi_400 text-[14px] text-white/60 "
           type="search"
           placeholder="Enter name Or Id"
         />

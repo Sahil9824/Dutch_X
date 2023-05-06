@@ -15,13 +15,13 @@ interface Props {
 
 const OverviewDetails: React.FC<Props> = ({ title, data, isNumber }) => {
   return (
-    <div className="search_border py-[12px] pl-[24px] pr-[16px] my-[8px]">
+    <div className="search_border py-[12px] pl-[24px] pr-[16px] my-[8px] ">
       {title && (
         <p className="font-Satoshi_500 text-[20px] text-white">{title}</p>
       )}
 
       {map(data, (item) => (
-        <p className="font-Satoshi_400 flex items-center justify-between text-base font-normal leading-6 tracking-normal text-left text-white/60 mt-[12px]">
+        <p className="cursor-pointer font-Satoshi_400 flex items-center justify-between text-base font-normal leading-6 tracking-normal text-left text-white/60 mt-[12px]">
           {item.title}
           <div className="flex items-center">
             {isNumber && (
