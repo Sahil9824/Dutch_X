@@ -74,7 +74,7 @@ const arr3 = [
 
 const Homepage = () => {
   return (
-    <div className="bg-c_bg_black w-screen h-screen overflow-scroll">
+    <div className="bg-c_bg_black w-screen h-screen overflow-scroll pt-[80px]">
       <Navbar />
       <div className="flex  w-full justify-between items-center mt-[16px] gap-[16px] px-6">
         {map(DashboardItemsList, (item: DashboardProps) => (
@@ -113,6 +113,7 @@ const Homepage = () => {
             date="2022-09-13"
             time="08:57:15 PST"
             btn2="Show Report"
+            tagBg="#DF4141"
           />
           <DashboardDetails
             isRunning
@@ -120,6 +121,7 @@ const Homepage = () => {
             time="08:57:15 PST"
             btn1="View Progress"
             btn2="Stop Mining"
+            tagBg="#70BC63"
           />
           <DashboardDetails
             isCompleted
@@ -127,6 +129,7 @@ const Homepage = () => {
             time="08:57:15 PST"
             btn1="View in NFT Management"
             btn2="Show Report"
+            tagBg="#4798E3"
           />
           <DashboardDetails
             isCompleted
@@ -134,6 +137,7 @@ const Homepage = () => {
             date="2022-09-13"
             time="08:57:15 PST"
             btn1="View Transaction"
+            tagBg="#4798E3"
           />
         </div>
         <div className="font-Satoshi_400 text-[24px] text-white/50 w-1/4">

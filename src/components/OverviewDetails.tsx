@@ -21,7 +21,7 @@ const OverviewDetails: React.FC<Props> = ({ title, data, isNumber }) => {
       )}
 
       {map(data, (item) => (
-        <p className="cursor-pointer font-Satoshi_400 flex items-center justify-between text-base font-normal leading-6 tracking-normal text-left text-white/60 mt-[12px]">
+        <div className="cursor-pointer font-Satoshi_400 flex items-center justify-between text-base font-normal leading-6 tracking-normal text-left text-white/60 mt-[12px]">
           {item.title}
           <div className="flex items-center">
             {isNumber && (
@@ -35,7 +35,7 @@ const OverviewDetails: React.FC<Props> = ({ title, data, isNumber }) => {
             )}
             <RightArrow />
           </div>
-        </p>
+        </div>
       ))}
     </div>
   );

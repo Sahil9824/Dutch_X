@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex py-4 px-[24px] w-full justify-between items-center gap-[10px]">
+    <nav className="flex py-2 px-[24px] w-full justify-between items-center gap-[10px] fixed top-0 z-10 bg-[#121212]">
       <div className="flex items-center">
         <Logo />
         <ul className="ml-[32px] flex items-start justify-between gap-[20px] pt-[20px]">

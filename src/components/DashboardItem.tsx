@@ -7,12 +7,13 @@ export interface DashboardProps {
 }
 
 const DashboardItem: React.FC<DashboardProps> = ({ icon, title, bgCol }) => {
-  console.log(bgCol);
+  const getStyle: object = { backgroundColor: bgCol };
 
   return (
-    <div className="flex w-1/5 flex-col items-center cursor-pointer">
+    <div className="flex w-1/5 flex-col items-center cursor-pointer ">
       <div
-        className={`h-[151px] w-full bg-[${bgCol}] flex items-center justify-center rounded-lg`}
+        className={`h-[151px] w-full flex items-center justify-center rounded-[8px]`}
+        style={getStyle}
       >
         {icon}
       </div>
